@@ -1,0 +1,71 @@
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  max-width: 250px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.ProfileImage {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.topSideCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.topSideCard p {
+  margin: 0;
+  color: #808080;
+}
+
+.topSideCard p.UserName {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.statsList {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  border-top: 2px solid gray;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.statsList li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  text-align: center;
+  border-right: 2px solid gray;
+  padding: 10px;
+}
+
+.statsList li:last-child {
+  border-right: none;
+}
+
+.boldStats {
+  font-weight: bold;
+}
